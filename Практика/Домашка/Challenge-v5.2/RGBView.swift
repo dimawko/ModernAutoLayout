@@ -39,16 +39,20 @@ final class RGBView: UIView {
         addSubview(redView)
         addSubview(blueView)
         
+        //TODO: - kekasdasda
         NSLayoutConstraint.activate([
             blueView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: spacing),
             blueView.topAnchor.constraint(equalTo: topAnchor, constant: spacing),
             blueView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -spacing),
-            blueView.trailingAnchor.constraint(equalTo: redView.leadingAnchor, constant: spacing),
+            blueView.trailingAnchor.constraint(equalTo: redView.leadingAnchor, constant: -spacing),
             blueView.widthAnchor.constraint(equalTo: redView.widthAnchor),
             
             redView.topAnchor.constraint(equalTo: topAnchor, constant: spacing),
-            redView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: spacing),
+            redView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -spacing),
             redView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -spacing)
         ])
-    }
+    } #error("Ты даун?")
 }
+//MARK: - <#Section Heading#>
+//TODO: - kekasdasda
+//FIXME: sadas

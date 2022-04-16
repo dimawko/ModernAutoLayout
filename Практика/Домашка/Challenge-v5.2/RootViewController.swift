@@ -6,30 +6,37 @@
 //
 
 import UIKit
+import Inject
+
 
 class RootViewController: UIViewController {
     
+    let viewController = Inject.ViewControllerHost(RootViewController())
+    RootViewController.pushViewController(viewController, animated: true)
+    
     private let padding: CGFloat = 50
     
-    private let RGBView: RGBView = {
+    private let rgbView: RGBView = {
         let view = RGBView()
-        view.backgroundColor = .green
         view.translatesAutoresizingMaskIntoConstraints = false
+        view.backgroundColor = .green
         return view
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
+        setupView()
     }
     
     private func setupView() {
         view.backgroundColor = .yellow
-        view.addSubview(RGBView)
+        view.addSubview(rgbView)
         
         NSLayoutConstraint.activate([
-        
+            rgbView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
+            rgbView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
+            rgbView.topAnchor.constraint(equalTo: view.topAnchor, constant: padding),
+            rgbView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.25)
         ])
     }
 }

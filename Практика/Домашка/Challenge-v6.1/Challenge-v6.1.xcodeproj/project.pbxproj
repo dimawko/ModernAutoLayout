@@ -7,104 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C23FA5F62809CE5300DB3809 /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = C23FA5F52809CE5300DB3809 /* Inject */; };
-		C2EE123A2809733200DCEF7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EE12392809733200DCEF7A /* AppDelegate.swift */; };
-		C2EE12432809733400DCEF7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2EE12422809733400DCEF7A /* Assets.xcassets */; };
-		C2EE12462809733400DCEF7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2EE12442809733400DCEF7A /* LaunchScreen.storyboard */; };
-		C2EE124E2809738700DCEF7A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EE124D2809738700DCEF7A /* RootViewController.swift */; };
-		C2EE1250280973AC00DCEF7A /* RGBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EE124F280973AC00DCEF7A /* RGBView.swift */; };
+		C2D89F9E280AE03900D68328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D89F9D280AE03900D68328 /* AppDelegate.swift */; };
+		C2D89FA2280AE03900D68328 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D89FA1280AE03900D68328 /* ViewController.swift */; };
+		C2D89FA7280AE03C00D68328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D89FA6280AE03C00D68328 /* Assets.xcassets */; };
+		C2D89FB2280AE07900D68328 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D89FB1280AE07900D68328 /* RootViewController.swift */; };
+		C2D89FB4280AE09400D68328 /* RGBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D89FB3280AE09400D68328 /* RGBView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C2EE12362809733200DCEF7A /* Challenge-v5.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge-v5.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2EE12392809733200DCEF7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2EE12422809733400DCEF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C2EE12452809733400DCEF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C2EE12472809733400DCEF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2EE124D2809738700DCEF7A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = SOURCE_ROOT; };
-		C2EE124F280973AC00DCEF7A /* RGBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBView.swift; sourceTree = SOURCE_ROOT; };
+		C2D89F9A280AE03900D68328 /* Challenge-v6.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge-v6.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D89F9D280AE03900D68328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2D89FA1280AE03900D68328 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2D89FA6280AE03C00D68328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2D89FAB280AE03C00D68328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2D89FB1280AE07900D68328 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = SOURCE_ROOT; };
+		C2D89FB3280AE09400D68328 /* RGBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C2EE12332809733200DCEF7A /* Frameworks */ = {
+		C2D89F97280AE03900D68328 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C23FA5F62809CE5300DB3809 /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C2EE122D2809733200DCEF7A = {
+		C2D89F91280AE03900D68328 = {
 			isa = PBXGroup;
 			children = (
-				C2EE12382809733200DCEF7A /* Challenge-v5.2 */,
-				C2EE12372809733200DCEF7A /* Products */,
+				C2D89F9C280AE03900D68328 /* Challenge-v6.1 */,
+				C2D89F9B280AE03900D68328 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C2EE12372809733200DCEF7A /* Products */ = {
+		C2D89F9B280AE03900D68328 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2EE12362809733200DCEF7A /* Challenge-v5.2.app */,
+				C2D89F9A280AE03900D68328 /* Challenge-v6.1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C2EE12382809733200DCEF7A /* Challenge-v5.2 */ = {
+		C2D89F9C280AE03900D68328 /* Challenge-v6.1 */ = {
 			isa = PBXGroup;
 			children = (
-				C2EE124F280973AC00DCEF7A /* RGBView.swift */,
-				C2EE124D2809738700DCEF7A /* RootViewController.swift */,
-				C2EE12392809733200DCEF7A /* AppDelegate.swift */,
-				C2EE12422809733400DCEF7A /* Assets.xcassets */,
-				C2EE12442809733400DCEF7A /* LaunchScreen.storyboard */,
-				C2EE12472809733400DCEF7A /* Info.plist */,
+				C2D89FB3280AE09400D68328 /* RGBView.swift */,
+				C2D89FB1280AE07900D68328 /* RootViewController.swift */,
+				C2D89F9D280AE03900D68328 /* AppDelegate.swift */,
+				C2D89FA1280AE03900D68328 /* ViewController.swift */,
+				C2D89FA6280AE03C00D68328 /* Assets.xcassets */,
+				C2D89FAB280AE03C00D68328 /* Info.plist */,
 			);
-			path = "Challenge-v5.2";
+			path = "Challenge-v6.1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2EE12352809733200DCEF7A /* Challenge-v5.2 */ = {
+		C2D89F99280AE03900D68328 /* Challenge-v6.1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2EE124A2809733400DCEF7A /* Build configuration list for PBXNativeTarget "Challenge-v5.2" */;
+			buildConfigurationList = C2D89FAE280AE03C00D68328 /* Build configuration list for PBXNativeTarget "Challenge-v6.1" */;
 			buildPhases = (
-				C2EE12322809733200DCEF7A /* Sources */,
-				C2EE12332809733200DCEF7A /* Frameworks */,
-				C2EE12342809733200DCEF7A /* Resources */,
+				C2D89F96280AE03900D68328 /* Sources */,
+				C2D89F97280AE03900D68328 /* Frameworks */,
+				C2D89F98280AE03900D68328 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Challenge-v5.2";
-			packageProductDependencies = (
-				C23FA5F52809CE5300DB3809 /* Inject */,
-			);
-			productName = "Challenge-v5.2";
-			productReference = C2EE12362809733200DCEF7A /* Challenge-v5.2.app */;
+			name = "Challenge-v6.1";
+			productName = "Challenge-v6.1";
+			productReference = C2D89F9A280AE03900D68328 /* Challenge-v6.1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C2EE122E2809733200DCEF7A /* Project object */ = {
+		C2D89F92280AE03900D68328 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					C2EE12352809733200DCEF7A = {
+					C2D89F99280AE03900D68328 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
-			buildConfigurationList = C2EE12312809733200DCEF7A /* Build configuration list for PBXProject "Challenge-v5.2" */;
+			buildConfigurationList = C2D89F95280AE03900D68328 /* Build configuration list for PBXProject "Challenge-v6.1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,57 +107,43 @@
 				en,
 				Base,
 			);
-			mainGroup = C2EE122D2809733200DCEF7A;
-			packageReferences = (
-				C23FA5F42809CE5300DB3809 /* XCRemoteSwiftPackageReference "Inject" */,
-			);
-			productRefGroup = C2EE12372809733200DCEF7A /* Products */;
+			mainGroup = C2D89F91280AE03900D68328;
+			productRefGroup = C2D89F9B280AE03900D68328 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2EE12352809733200DCEF7A /* Challenge-v5.2 */,
+				C2D89F99280AE03900D68328 /* Challenge-v6.1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C2EE12342809733200DCEF7A /* Resources */ = {
+		C2D89F98280AE03900D68328 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2EE12462809733400DCEF7A /* LaunchScreen.storyboard in Resources */,
-				C2EE12432809733400DCEF7A /* Assets.xcassets in Resources */,
+				C2D89FA7280AE03C00D68328 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C2EE12322809733200DCEF7A /* Sources */ = {
+		C2D89F96280AE03900D68328 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2EE1250280973AC00DCEF7A /* RGBView.swift in Sources */,
-				C2EE124E2809738700DCEF7A /* RootViewController.swift in Sources */,
-				C2EE123A2809733200DCEF7A /* AppDelegate.swift in Sources */,
+				C2D89FB4280AE09400D68328 /* RGBView.swift in Sources */,
+				C2D89FA2280AE03900D68328 /* ViewController.swift in Sources */,
+				C2D89F9E280AE03900D68328 /* AppDelegate.swift in Sources */,
+				C2D89FB2280AE07900D68328 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		C2EE12442809733400DCEF7A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2EE12452809733400DCEF7A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		C2EE12482809733400DCEF7A /* Debug */ = {
+		C2D89FAC280AE03C00D68328 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +203,7 @@
 			};
 			name = Debug;
 		};
-		C2EE12492809733400DCEF7A /* Release */ = {
+		C2D89FAD280AE03C00D68328 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -276,7 +257,7 @@
 			};
 			name = Release;
 		};
-		C2EE124B2809733400DCEF7A /* Debug */ = {
+		C2D89FAF280AE03C00D68328 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -285,7 +266,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 25CKWY7LZ9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Challenge-v5.2/Info.plist";
+				INFOPLIST_FILE = "Challenge-v6.1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -295,7 +276,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kz.dimawkoapps.Challenge-v5-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.dimawkoapps.Challenge-v6-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -303,7 +284,7 @@
 			};
 			name = Debug;
 		};
-		C2EE124C2809733400DCEF7A /* Release */ = {
+		C2D89FB0280AE03C00D68328 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -312,7 +293,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 25CKWY7LZ9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Challenge-v5.2/Info.plist";
+				INFOPLIST_FILE = "Challenge-v6.1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -322,7 +303,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kz.dimawkoapps.Challenge-v5-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.dimawkoapps.Challenge-v6-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,44 +314,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2EE12312809733200DCEF7A /* Build configuration list for PBXProject "Challenge-v5.2" */ = {
+		C2D89F95280AE03900D68328 /* Build configuration list for PBXProject "Challenge-v6.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2EE12482809733400DCEF7A /* Debug */,
-				C2EE12492809733400DCEF7A /* Release */,
+				C2D89FAC280AE03C00D68328 /* Debug */,
+				C2D89FAD280AE03C00D68328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2EE124A2809733400DCEF7A /* Build configuration list for PBXNativeTarget "Challenge-v5.2" */ = {
+		C2D89FAE280AE03C00D68328 /* Build configuration list for PBXNativeTarget "Challenge-v6.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2EE124B2809733400DCEF7A /* Debug */,
-				C2EE124C2809733400DCEF7A /* Release */,
+				C2D89FAF280AE03C00D68328 /* Debug */,
+				C2D89FB0280AE03C00D68328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		C23FA5F42809CE5300DB3809 /* XCRemoteSwiftPackageReference "Inject" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		C23FA5F52809CE5300DB3809 /* Inject */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C23FA5F42809CE5300DB3809 /* XCRemoteSwiftPackageReference "Inject" */;
-			productName = Inject;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = C2EE122E2809733200DCEF7A /* Project object */;
+	rootObject = C2D89F92280AE03900D68328 /* Project object */;
 }

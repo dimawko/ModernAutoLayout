@@ -1,12 +1,11 @@
 //
 //  AppDelegate.swift
-//  Challenge-v5.2
+//  Challenge-v6.1
 //
-//  Created by Dinmukhammed Sagyntkan on 15.04.2022.
+//  Created by Dinmukhammed Sagyntkan on 16.04.2022.
 //
 
 import UIKit
-import Inject
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,8 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = RootViewController()
         window?.makeKeyAndVisible()
         return true
-        
-  
     }
 }
 

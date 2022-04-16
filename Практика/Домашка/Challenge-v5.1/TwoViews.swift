@@ -8,6 +8,7 @@
 import UIKit
 
 final class TwoViews: UIView {
+    
     private let padding: CGFloat = 50
     private let spacing: CGFloat = 25
     
